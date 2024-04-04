@@ -1,4 +1,14 @@
-source "http://rubygems.org"
+# frozen_string_literal: true
 
-# Specify your gem's dependencies in solar_geometry_calculation.gemspec
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in testgem.gemspec
 gemspec
+
+gem 'bundler', '~> 2'
+gem 'rake'
+gem 'rspec'
+gem 'rubocop'
+gem 'rubocop-performance'
+gem 'rubocop-rake'
+gem 'rubocop-rspec'

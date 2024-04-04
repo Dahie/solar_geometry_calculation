@@ -1,5 +1,4 @@
 module SolarGeometryCalculation
-
   module CalculationHelper
   
     def day_of_the_year(year, month, day, hour = 0, minute = 0)

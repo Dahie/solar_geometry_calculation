@@ -1,4 +1,6 @@
 require 'tzinfo'
+require 'active_support/deprecator'
+require 'active_support/deprecation'
 require 'active_support/core_ext/time/calculations'
 require 'active_support/core_ext/date/calculations'
 
